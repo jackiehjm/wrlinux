@@ -1,10 +1,10 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/${BPN}:"
 
 SRC_URI_append = " \
-    file://docker-17.03.2-ce.tgz \
+    file://docker-18.06.3-ce.tgz \
 "
 
-PV = "17.03.2-ce"
+PV = "18.06.3-ce"
 
 do_install_append() {
     install -m 755 ${WORKDIR}/docker/docker ${D}${bindir}
