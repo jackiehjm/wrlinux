@@ -139,3 +139,4 @@ TARGET_SUPPORTED_KTYPES ??= "standard"
 PNBLACKLIST[musl] ?= "only glibc is supported for wrlinux"
 PNBLACKLIST[musl-utils] ?= "only glibc is supported for wrlinux"
 
+TEMPLATES_PATH = "${LAYER_PATH_wrlinux}/wrlinux-distro/templates"
