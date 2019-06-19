@@ -136,6 +136,6 @@ SDK_LAYERS_EXCLUDE_PATTERN ?= ".*-dl$ .*-dl-2\.6$"
 TARGET_SUPPORTED_KTYPES ??= "standard"
 
 # Packages blacklisted by default for wrlinux.
-PNBLACKLIST[musl] ?= "only glibc is supported for wrlinux"
-PNBLACKLIST[musl-utils] ?= "only glibc is supported for wrlinux"
+#PNBLACKLIST[musl] ?= "only glibc is supported for wrlinux"
+#PNBLACKLIST[musl-utils] ?= "only glibc is supported for wrlinux"
 
