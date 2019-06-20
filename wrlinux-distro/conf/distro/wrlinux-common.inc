@@ -109,7 +109,7 @@ DISTRO_FEATURES_BACKFILL_CONSIDERED += "ldconfig"
 
 # Multilib configuration
 MULTILIBS ?= ""
-require conf/multilib.conf
+#require conf/multilib.conf
 
 PACKAGECONFIG_pn-sysstat ?= "lm-sensors"
 
